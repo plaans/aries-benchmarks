@@ -1,0 +1,3 @@
+run_all.sh
+.venv
+uv.lock

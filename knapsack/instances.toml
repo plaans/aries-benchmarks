@@ -1,0 +1,54 @@
+
+class = "knapsack"
+solver = "cargo run --profile {profile} --example knapsack -- knapsack/{file}"
+optimal_arg =" --expected-value {optimal}"
+
+[[instances]]
+file = "pisinger_instances_01_KP/low-dimensional/f1_l-d_kp_10_269"
+optimal = 295
+test = true
+
+[[instances]]
+file = "pisinger_instances_01_KP/low-dimensional/f2_l-d_kp_20_878"
+optimal = 1024
+test = true
+
+[[instances]]
+file = "pisinger_instances_01_KP/low-dimensional/f3_l-d_kp_4_20"
+optimal = 35
+test = true
+
+[[instances]]
+file = "pisinger_instances_01_KP/low-dimensional/f4_l-d_kp_4_11"
+optimal = 23
+test = true
+
+# [[instances]]  # non integer values
+# file = "pisinger_instances_01_KP/low-dimensional/f5_l-d_kp_15_375"
+# optimal = 0
+# test = true
+
+[[instances]]
+file = "pisinger_instances_01_KP/low-dimensional/f6_l-d_kp_10_60"
+optimal = 52
+test = true
+
+[[instances]]
+file = "pisinger_instances_01_KP/low-dimensional/f7_l-d_kp_7_50"
+optimal = 107
+test = true
+
+[[instances]]
+file = "pisinger_instances_01_KP/low-dimensional/f8_l-d_kp_23_10000"
+optimal = 9767
+test = true
+
+[[instances]]
+file = "pisinger_instances_01_KP/low-dimensional/f9_l-d_kp_5_80"
+optimal = 130
+test = true
+
+[[instances]]
+file = "pisinger_instances_01_KP/low-dimensional/f10_l-d_kp_20_879"
+optimal = 1025
+test = true
