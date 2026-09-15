@@ -1,0 +1,550 @@
+
+class = "lp"
+solver = "cargo -q run --profile {profile} --example solve_mps -- lp/{file}"
+optimal_arg = " --expected-value={optimal}"
+
+
+[[instances]]
+file = 'mps_files/25fv47.mps'
+optimal = 5501.845888286689
+glop_solve_time = 0.13742637634277344
+test = true
+
+[[instances]]
+file = 'mps_files/80bau3b.mps'
+optimal = 987224.1924090903
+glop_solve_time = 0.18279695510864258
+test = true
+
+[[instances]]
+file = 'mps_files/adlittle.mps'
+optimal = 225494.96316238033
+glop_solve_time = 0.000820159912109375
+test = true
+
+[[instances]]
+file = 'mps_files/afiro.mps'
+optimal = -464.75314285714296
+glop_solve_time = 0.00017142295837402344
+test = true
+
+[[instances]]
+file = 'mps_files/agg.mps'
+optimal = -35991767.28657642
+glop_solve_time = 0.0022430419921875
+test = true
+
+[[instances]]
+file = 'mps_files/agg2.mps'
+optimal = -20239252.355977133
+glop_solve_time = 0.003599882125854492
+test = true
+
+[[instances]]
+file = 'mps_files/agg3.mps'
+optimal = 10312115.935089223
+glop_solve_time = 0.003537416458129883
+test = true
+
+[[instances]]
+file = 'mps_files/bandm.mps'
+optimal = -158.6280184501216
+glop_solve_time = 0.005435943603515625
+test = true
+
+[[instances]]
+file = 'mps_files/beaconfd.mps'
+optimal = 33592.4858072
+glop_solve_time = 0.0010366439819335938
+test = true
+
+[[instances]]
+file = 'mps_files/blend.mps'
+optimal = -30.812149845828227
+glop_solve_time = 0.00063323974609375
+test = true
+
+[[instances]]
+file = 'mps_files/bnl1.mps'
+optimal = 1977.6295615228892
+glop_solve_time = 0.04106545448303223
+test = true
+
+[[instances]]
+file = 'mps_files/bnl2.mps'
+optimal = 1811.236540358545
+glop_solve_time = 0.0921177864074707
+test = true
+
+[[instances]]
+file = 'mps_files/boeing1.mps'
+optimal = -335.21356750712664
+glop_solve_time = 0.0061931610107421875
+test = true
+
+[[instances]]
+file = 'mps_files/boeing2.mps'
+optimal = -315.0187280152029
+glop_solve_time = 0.0017189979553222656
+test = true
+
+[[instances]]
+file = 'mps_files/bore3d.mps'
+optimal = 1373.0803942084926
+glop_solve_time = 0.0010323524475097656
+test = true
+
+[[instances]]
+file = 'mps_files/brandy.mps'
+optimal = 1518.50989648813
+glop_solve_time = 0.003072500228881836
+test = true
+
+[[instances]]
+file = 'mps_files/capri.mps'
+optimal = 2690.012913768161
+glop_solve_time = 0.003105640411376953
+test = true
+
+[[instances]]
+file = 'mps_files/cycle.mps'
+optimal = -5.226393024894099
+glop_solve_time = 0.029926061630249023
+test = true
+
+[[instances]]
+file = 'mps_files/czprob.mps'
+optimal = 2185196.6988565777
+glop_solve_time = 0.018339872360229492
+test = true
+
+[[instances]]
+file = 'mps_files/d2q06c.mps'
+optimal = 122784.21081418928
+glop_solve_time = 0.7204470634460449
+
+[[instances]]
+file = 'mps_files/d6cube.mps'
+optimal = 315.4916666666727
+glop_solve_time = 0.9087443351745605
+
+[[instances]]
+file = 'mps_files/degen2.mps'
+optimal = -1435.178
+glop_solve_time = 0.013120174407958984
+test = true
+
+[[instances]]
+file = 'mps_files/degen3.mps'
+optimal = -987.294
+glop_solve_time = 0.20116448402404785
+test = true
+
+[[instances]]
+file = 'mps_files/dfl001.mps'
+optimal = 11266396.046672326
+glop_solve_time = 4.305987358093262
+
+[[instances]]
+file = 'mps_files/e226.mps'
+optimal = -11.638929066370551
+glop_solve_time = 0.0041370391845703125
+test = true
+
+[[instances]]
+file = 'mps_files/etamacro.mps'
+optimal = -755.7152333505868
+glop_solve_time = 0.00863504409790039
+test = true
+
+[[instances]]
+file = 'mps_files/fffff800.mps'
+optimal = 555679.5648174963
+glop_solve_time = 0.004481315612792969
+test = true
+
+[[instances]]
+file = 'mps_files/finnis.mps'
+optimal = 172791.06559561158
+glop_solve_time = 0.005639791488647461
+test = true
+
+[[instances]]
+file = 'mps_files/fit1d.mps'
+optimal = -9146.37809242093
+glop_solve_time = 0.0180511474609375
+test = true
+
+[[instances]]
+file = 'mps_files/fit1p.mps'
+optimal = 9146.378092420928
+glop_solve_time = 0.015381097793579102
+test = true
+
+[[instances]]
+file = 'mps_files/fit2d.mps'
+optimal = -68464.29329383196
+glop_solve_time = 1.5699779987335205
+
+[[instances]]
+file = 'mps_files/fit2p.mps'
+optimal = 68464.29329383207
+glop_solve_time = 0.4541196823120117
+
+[[instances]]
+file = 'mps_files/ganges.mps'
+optimal = -109585.7361292783
+glop_solve_time = 0.011290311813354492
+test = true
+
+[[instances]]
+file = 'mps_files/gfrd-pnc.mps'
+optimal = 6902235.999548809
+glop_solve_time = 0.007273674011230469
+test = true
+
+[[instances]]
+file = 'mps_files/greenbea.mps'
+optimal = -72555248.12984598
+glop_solve_time = 0.5127038955688477
+
+[[instances]]
+file = 'mps_files/greenbeb.mps'
+optimal = -4302260.261206587
+glop_solve_time = 0.23757314682006836
+test = true
+
+[[instances]]
+file = 'mps_files/grow15.mps'
+optimal = -106870941.29357505
+glop_solve_time = 0.013387680053710938
+test = true
+ignore = true  # unstable
+
+[[instances]]
+file = 'mps_files/grow22.mps'
+optimal = -160834336.482563
+glop_solve_time = 0.0244295597076416
+test = true
+
+[[instances]]
+file = 'mps_files/grow7.mps'
+optimal = -47787811.814711474
+glop_solve_time = 0.004073143005371094
+test = true
+
+[[instances]]
+file = 'mps_files/israel.mps'
+optimal = -896644.8218630458
+glop_solve_time = 0.0020923614501953125
+test = true
+
+[[instances]]
+file = 'mps_files/kb2.mps'
+optimal = -1749.900129906206
+glop_solve_time = 0.00035262107849121094
+test = true
+
+[[instances]]
+file = 'mps_files/lotfi.mps'
+optimal = -25.264706061880002
+glop_solve_time = 0.0010771751403808594
+test = true
+
+[[instances]]
+file = 'mps_files/maros-r7.mps'
+optimal = 1497185.166479643
+glop_solve_time = 0.5943245887756348
+
+[[instances]]
+file = 'mps_files/maros.mps'
+optimal = -58063.74370112573
+glop_solve_time = 0.022503137588500977
+test = true
+
+[[instances]]
+file = 'mps_files/modszk1.mps'
+optimal = 320.61972906428326
+glop_solve_time = 0.017303466796875
+test = true
+
+[[instances]]
+file = 'mps_files/nesm.mps'
+optimal = 14076036.487562723
+glop_solve_time = 0.06775259971618652
+test = true
+
+[[instances]]
+file = 'mps_files/perold.mps'
+optimal = -9380.755278234445
+glop_solve_time = 0.047194719314575195
+test = true
+
+[[instances]]
+file = 'mps_files/pilot.ja.mps'
+optimal = -6113.136465581274
+glop_solve_time = 0.11021161079406738
+test = true
+
+[[instances]]
+file = 'mps_files/pilot.mps'
+optimal = -557.4897292730749
+glop_solve_time = 0.8252148628234863
+
+[[instances]]
+file = 'mps_files/pilot.we.mps'
+optimal = -2720107.5328449626
+glop_solve_time = 0.06177091598510742
+test = true
+
+[[instances]]
+file = 'mps_files/pilot87.mps'
+optimal = 301.71034733312
+glop_solve_time = 2.5213534832000732
+
+[[instances]]
+file = 'mps_files/pilotnov.mps'
+optimal = -4497.276188218875
+glop_solve_time = 0.06182980537414551
+test = true
+ignore = true
+
+[[instances]]
+file = 'mps_files/recipe.mps'
+optimal = -266.616
+glop_solve_time = 0.0005581378936767578
+test = true
+
+[[instances]]
+file = 'mps_files/sc105.mps'
+optimal = -52.20206121170721
+glop_solve_time = 0.0007312297821044922
+test = true
+
+[[instances]]
+file = 'mps_files/sc205.mps'
+optimal = -52.20206121170717
+glop_solve_time = 0.002328157424926758
+test = true
+
+[[instances]]
+file = 'mps_files/sc50a.mps'
+optimal = -64.57507705856449
+glop_solve_time = 0.00031638145446777344
+test = true
+
+[[instances]]
+file = 'mps_files/sc50b.mps'
+optimal = -69.99999999999997
+glop_solve_time = 0.0002892017364501953
+test = true
+
+[[instances]]
+file = 'mps_files/scagr25.mps'
+optimal = -14753433.060768522
+glop_solve_time = 0.0038912296295166016
+test = true
+
+[[instances]]
+file = 'mps_files/scagr7.mps'
+optimal = -2331389.8243309837
+glop_solve_time = 0.0008056163787841797
+test = true
+
+[[instances]]
+file = 'mps_files/scfxm1.mps'
+optimal = 18416.759028348944
+glop_solve_time = 0.0044918060302734375
+test = true
+
+[[instances]]
+file = 'mps_files/scfxm2.mps'
+optimal = 36660.26156499881
+glop_solve_time = 0.012330770492553711
+test = true
+
+[[instances]]
+file = 'mps_files/scfxm3.mps'
+optimal = 54901.25454975145
+glop_solve_time = 0.023798704147338867
+test = true
+
+[[instances]]
+file = 'mps_files/scorpion.mps'
+optimal = 1878.1248227381068
+glop_solve_time = 0.0023529529571533203
+test = true
+
+[[instances]]
+file = 'mps_files/scrs8.mps'
+optimal = 904.2969538007915
+glop_solve_time = 0.009313106536865234
+test = true
+
+[[instances]]
+file = 'mps_files/scsd1.mps'
+optimal = 8.666666674333365
+glop_solve_time = 0.0025987625122070312
+test = true
+
+[[instances]]
+file = 'mps_files/scsd6.mps'
+optimal = 50.500000077641246
+glop_solve_time = 0.005971193313598633
+test = true
+
+[[instances]]
+file = 'mps_files/scsd8.mps'
+optimal = 904.9999999254644
+glop_solve_time = 0.020901918411254883
+test = true
+
+[[instances]]
+file = 'mps_files/sctap1.mps'
+optimal = 1412.2499999999993
+glop_solve_time = 0.0023391246795654297
+test = true
+
+[[instances]]
+file = 'mps_files/sctap2.mps'
+optimal = 1724.8071428571427
+glop_solve_time = 0.007731914520263672
+test = true
+
+[[instances]]
+file = 'mps_files/sctap3.mps'
+optimal = 1423.9999999999998
+glop_solve_time = 0.012300252914428711
+test = true
+
+[[instances]]
+file = 'mps_files/seba.mps'
+optimal = 15711.6
+glop_solve_time = 0.0012726783752441406
+test = true
+
+[[instances]]
+file = 'mps_files/share1b.mps'
+optimal = -76589.31857918575
+glop_solve_time = 0.0024487972259521484
+test = true
+
+[[instances]]
+file = 'mps_files/share2b.mps'
+optimal = -415.73224074141956
+glop_solve_time = 0.0007927417755126953
+test = true
+
+[[instances]]
+file = 'mps_files/shell.mps'
+optimal = 1208825346.0
+glop_solve_time = 0.005781650543212891
+test = true
+
+[[instances]]
+file = 'mps_files/ship04l.mps'
+optimal = 1793324.5379703557
+glop_solve_time = 0.0054225921630859375
+test = true
+
+[[instances]]
+file = 'mps_files/ship04s.mps'
+optimal = 1798714.7004453922
+glop_solve_time = 0.003782510757446289
+test = true
+
+[[instances]]
+file = 'mps_files/ship08l.mps'
+optimal = 1909055.2113891311
+glop_solve_time = 0.01251363754272461
+test = true
+
+[[instances]]
+file = 'mps_files/ship08s.mps'
+optimal = 1920098.2105346194
+glop_solve_time = 0.00635528564453125
+test = true
+
+[[instances]]
+file = 'mps_files/ship12l.mps'
+optimal = 1470187.9193292647
+glop_solve_time = 0.0128173828125
+test = true
+
+[[instances]]
+file = 'mps_files/ship12s.mps'
+optimal = 1489236.1344061291
+glop_solve_time = 0.006179094314575195
+test = true
+
+[[instances]]
+file = 'mps_files/sierra.mps'
+optimal = 15394362.18363193
+glop_solve_time = 0.009762287139892578
+test = true
+
+[[instances]]
+file = 'mps_files/stair.mps'
+optimal = -251.26695119296403
+glop_solve_time = 0.009739398956298828
+test = true
+
+[[instances]]
+file = 'mps_files/standata.mps'
+optimal = 1257.6995
+glop_solve_time = 0.0021965503692626953
+test = true
+
+[[instances]]
+file = 'mps_files/standgub.mps'
+optimal = 1257.6995
+glop_solve_time = 0.0022492408752441406
+test = true
+
+[[instances]]
+file = 'mps_files/standmps.mps'
+optimal = 1406.0174999999997
+glop_solve_time = 0.003706693649291992
+test = true
+
+[[instances]]
+file = 'mps_files/stocfor1.mps'
+optimal = -41131.97621943641
+glop_solve_time = 0.00057220458984375
+test = true
+
+[[instances]]
+file = 'mps_files/stocfor2.mps'
+optimal = -39024.40853788204
+glop_solve_time = 0.020994186401367188
+test = true
+
+[[instances]]
+file = 'mps_files/truss.mps'
+optimal = 458815.8471856168
+glop_solve_time = 0.29270362854003906
+test = true
+
+[[instances]]
+file = 'mps_files/tuff.mps'
+optimal = 0.2921477650936128
+glop_solve_time = 0.004112720489501953
+test = true
+
+[[instances]]
+file = 'mps_files/vtp.base.mps'
+optimal = 129831.46246136137
+glop_solve_time = 0.0007386207580566406
+test = true
+
+[[instances]]
+file = 'mps_files/wood1p.mps'
+optimal = 1.4429024115734084
+glop_solve_time = 0.029779434204101562
+test = true
+
+[[instances]]
+file = 'mps_files/woodw.mps'
+optimal = 1.3044763330842293
+glop_solve_time = 0.04661393165588379
+test = true

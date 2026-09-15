@@ -1,6 +1,6 @@
 
 class = "knapsack"
-solver = "cargo run --profile {profile} --example knapsack -- knapsack/{file}"
+solver = "cargo -q run --profile {profile} --example knapsack -- knapsack/{file}"
 optimal_arg =" --expected-value {optimal}"
 
 [[instances]]
