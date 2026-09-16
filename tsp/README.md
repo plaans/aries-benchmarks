@@ -16,7 +16,11 @@ The instance is marked for testing if it solved in less than 0.05 second by `pyv
 uv run init_metadata.py > instances.toml
 ```
 
-**Important**: `pyvrp` accepts only integer distance, therefore a rounding is used.
+**Important**:
+
+- `pyvrp` is an heuristic based solver. For small instances, optimal solutions should be found but if an unexpected error occurs, try to add execution time in `init_metadata.py`
+
+- `pyvrp` accepts only integer distance, therefore a rounding is used.
 To ensure that the optimal value found is still correct and can be used for testing, only problems with integer distance between nodes should be added:
 
 TSPLIB95 instances are designed with integer variables for distances, therefore more instances can be added with no risk.
