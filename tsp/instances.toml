@@ -1,0 +1,243 @@
+
+class = "tsp"
+solver = "cargo -q run --profile {profile} --example tsp -- tsp/{file}"
+optimal_arg = " --expected-value {optimal}"
+
+
+[[instances]]
+file = 'tsp_files/bayg29.tsp'
+optimal = 1610
+pyvrp_solve_time = 0.1330
+
+[[instances]]
+file = 'tsp_files/bays29.tsp'
+optimal = 2020
+pyvrp_solve_time = 0.1261
+
+[[instances]]
+file = 'tsp_files/burma14.tsp'
+optimal = 3323
+pyvrp_solve_time = 0.0481
+test = true
+
+[[instances]]
+file = 'tsp_files/fri26.tsp'
+optimal = 937
+pyvrp_solve_time = 0.0983
+
+[[instances]]
+file = 'tsp_files/gr17.tsp'
+optimal = 2085
+pyvrp_solve_time = 0.0628
+
+[[instances]]
+file = 'tsp_files/gr21.tsp'
+optimal = 2707
+pyvrp_solve_time = 0.0815
+
+[[instances]]
+file = 'tsp_files/gr24.tsp'
+optimal = 1272
+pyvrp_solve_time = 0.1117
+
+[[instances]]
+file = 'tsp_files/random_n10_0.tsp'
+optimal = 220
+pyvrp_solve_time = 0.0346
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n10_1.tsp'
+optimal = 199
+pyvrp_solve_time = 0.0372
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n10_2.tsp'
+optimal = 179
+pyvrp_solve_time = 0.0360
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n10_3.tsp'
+optimal = 99
+pyvrp_solve_time = 0.0346
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n10_4.tsp'
+optimal = 162
+pyvrp_solve_time = 0.0330
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n11_0.tsp'
+optimal = 181
+pyvrp_solve_time = 0.0387
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n11_1.tsp'
+optimal = 204
+pyvrp_solve_time = 0.0434
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n11_2.tsp'
+optimal = 210
+pyvrp_solve_time = 0.0450
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n11_3.tsp'
+optimal = 322
+pyvrp_solve_time = 0.0370
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n11_4.tsp'
+optimal = 187
+pyvrp_solve_time = 0.0394
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n12_0.tsp'
+optimal = 191
+pyvrp_solve_time = 0.0434
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n12_1.tsp'
+optimal = 207
+pyvrp_solve_time = 0.0441
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n12_2.tsp'
+optimal = 204
+pyvrp_solve_time = 0.0436
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n12_3.tsp'
+optimal = 218
+pyvrp_solve_time = 0.0469
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n12_4.tsp'
+optimal = 223
+pyvrp_solve_time = 0.0472
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n13_0.tsp'
+optimal = 280
+pyvrp_solve_time = 0.0497
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n13_1.tsp'
+optimal = 292
+pyvrp_solve_time = 0.0530
+
+[[instances]]
+file = 'tsp_files/random_n13_2.tsp'
+optimal = 209
+pyvrp_solve_time = 0.0525
+
+[[instances]]
+file = 'tsp_files/random_n13_3.tsp'
+optimal = 190
+pyvrp_solve_time = 0.0496
+test = true
+
+[[instances]]
+file = 'tsp_files/random_n13_4.tsp'
+optimal = 165
+pyvrp_solve_time = 0.0513
+
+[[instances]]
+file = 'tsp_files/random_n14_0.tsp'
+optimal = 298
+pyvrp_solve_time = 0.0573
+
+[[instances]]
+file = 'tsp_files/random_n14_1.tsp'
+optimal = 207
+pyvrp_solve_time = 0.0596
+
+[[instances]]
+file = 'tsp_files/random_n14_2.tsp'
+optimal = 198
+pyvrp_solve_time = 0.0536
+
+[[instances]]
+file = 'tsp_files/random_n14_3.tsp'
+optimal = 166
+pyvrp_solve_time = 0.0595
+
+[[instances]]
+file = 'tsp_files/random_n14_4.tsp'
+optimal = 160
+pyvrp_solve_time = 0.0569
+
+[[instances]]
+file = 'tsp_files/random_n15_0.tsp'
+optimal = 231
+pyvrp_solve_time = 0.0623
+
+[[instances]]
+file = 'tsp_files/random_n15_1.tsp'
+optimal = 218
+pyvrp_solve_time = 0.0674
+
+[[instances]]
+file = 'tsp_files/random_n15_2.tsp'
+optimal = 191
+pyvrp_solve_time = 0.0672
+
+[[instances]]
+file = 'tsp_files/random_n15_3.tsp'
+optimal = 173
+pyvrp_solve_time = 0.0667
+
+[[instances]]
+file = 'tsp_files/random_n15_4.tsp'
+optimal = 186
+pyvrp_solve_time = 0.0646
+
+[[instances]]
+file = 'tsp_files/random_n16_0.tsp'
+optimal = 203
+pyvrp_solve_time = 0.0721
+
+[[instances]]
+file = 'tsp_files/random_n16_1.tsp'
+optimal = 133
+pyvrp_solve_time = 0.0684
+
+[[instances]]
+file = 'tsp_files/random_n16_2.tsp'
+optimal = 180
+pyvrp_solve_time = 0.0731
+
+[[instances]]
+file = 'tsp_files/random_n16_3.tsp'
+optimal = 220
+pyvrp_solve_time = 0.0747
+
+[[instances]]
+file = 'tsp_files/random_n16_4.tsp'
+optimal = 184
+pyvrp_solve_time = 0.0749
+
+[[instances]]
+file = 'tsp_files/ulysses16.tsp'
+optimal = 6859
+pyvrp_solve_time = 0.0596
+
+[[instances]]
+file = 'tsp_files/ulysses22.tsp'
+optimal = 7013
+pyvrp_solve_time = 0.0957
