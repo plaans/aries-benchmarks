@@ -1,0 +1,2738 @@
+
+class = "mmrcpsp"
+solver = "cargo -q run --profile {profile} --example rcpsp -- rcpsp/multi-mode/{file}"
+optimal_arg = " --expected-makespan={optimal}"
+
+
+[[instances]]
+file = 'j10.mm/j1010_10.mm'
+optimal = 17
+optal_solve_time = 0.009655099
+
+[[instances]]
+file = 'j10.mm/j1010_1.mm'
+optimal = 17
+optal_solve_time = 0.006005279
+test = true
+
+[[instances]]
+file = 'j10.mm/j1010_2.mm'
+optimal = 24
+optal_solve_time = 0.006423419
+
+[[instances]]
+file = 'j10.mm/j1010_3.mm'
+optimal = 21
+optal_solve_time = 0.007142544
+
+[[instances]]
+file = 'j10.mm/j1010_4.mm'
+optimal = 15
+optal_solve_time = 0.008231178
+
+[[instances]]
+file = 'j10.mm/j1010_5.mm'
+optimal = 24
+optal_solve_time = 0.008824534
+
+[[instances]]
+file = 'j10.mm/j1010_6.mm'
+optimal = 18
+optal_solve_time = 0.006884511
+
+[[instances]]
+file = 'j10.mm/j1010_7.mm'
+optimal = 15
+optal_solve_time = 0.008000504
+
+[[instances]]
+file = 'j10.mm/j1010_8.mm'
+optimal = 15
+optal_solve_time = 0.008140715
+
+[[instances]]
+file = 'j10.mm/j1010_9.mm'
+optimal = 10
+optal_solve_time = 0.006677489
+
+[[instances]]
+file = 'j10.mm/j1011_10.mm'
+optimal = 21
+optal_solve_time = 0.007138472
+
+[[instances]]
+file = 'j10.mm/j1011_1.mm'
+optimal = 20
+optal_solve_time = 0.00625692
+test = true
+
+[[instances]]
+file = 'j10.mm/j1011_2.mm'
+optimal = 11
+optal_solve_time = 0.00656366
+
+[[instances]]
+file = 'j10.mm/j1011_3.mm'
+optimal = 12
+optal_solve_time = 0.006344149
+
+[[instances]]
+file = 'j10.mm/j1011_4.mm'
+optimal = 23
+optal_solve_time = 0.00708844
+
+[[instances]]
+file = 'j10.mm/j1011_5.mm'
+optimal = 15
+optal_solve_time = 0.006466626
+
+[[instances]]
+file = 'j10.mm/j1011_6.mm'
+optimal = 15
+optal_solve_time = 0.007019943
+
+[[instances]]
+file = 'j10.mm/j1011_7.mm'
+optimal = 11
+optal_solve_time = 0.007065363
+
+[[instances]]
+file = 'j10.mm/j1011_8.mm'
+optimal = 14
+optal_solve_time = 0.009284836
+
+[[instances]]
+file = 'j10.mm/j1011_9.mm'
+optimal = 16
+optal_solve_time = 0.006976044
+
+[[instances]]
+file = 'j10.mm/j1012_10.mm'
+optimal = 9
+optal_solve_time = 0.006845485
+
+[[instances]]
+file = 'j10.mm/j1012_1.mm'
+optimal = 15
+optal_solve_time = 0.006306206
+test = true
+
+[[instances]]
+file = 'j10.mm/j1012_2.mm'
+optimal = 15
+optal_solve_time = 0.007575637
+
+[[instances]]
+file = 'j10.mm/j1012_3.mm'
+optimal = 16
+optal_solve_time = 0.007320288
+
+[[instances]]
+file = 'j10.mm/j1012_4.mm'
+optimal = 17
+optal_solve_time = 0.006782672
+
+[[instances]]
+file = 'j10.mm/j1012_5.mm'
+optimal = 13
+optal_solve_time = 0.006197498
+
+[[instances]]
+file = 'j10.mm/j1012_6.mm'
+optimal = 22
+optal_solve_time = 0.006582872
+
+[[instances]]
+file = 'j10.mm/j1012_7.mm'
+optimal = 12
+optal_solve_time = 0.007064913
+
+[[instances]]
+file = 'j10.mm/j1012_8.mm'
+optimal = 19
+optal_solve_time = 0.007189983
+
+[[instances]]
+file = 'j10.mm/j1012_9.mm'
+optimal = 21
+optal_solve_time = 0.007428884
+
+[[instances]]
+file = 'j10.mm/j1013_10.mm'
+optimal = 33
+optal_solve_time = 0.008643638
+
+[[instances]]
+file = 'j10.mm/j1013_1.mm'
+optimal = 24
+optal_solve_time = 0.006596671
+test = true
+
+[[instances]]
+file = 'j10.mm/j1013_2.mm'
+optimal = 21
+optal_solve_time = 0.006341878
+
+[[instances]]
+file = 'j10.mm/j1013_3.mm'
+optimal = 27
+optal_solve_time = 0.006382375
+
+[[instances]]
+file = 'j10.mm/j1013_4.mm'
+optimal = 27
+optal_solve_time = 0.007507407
+
+[[instances]]
+file = 'j10.mm/j1013_5.mm'
+optimal = 24
+optal_solve_time = 0.00666636
+
+[[instances]]
+file = 'j10.mm/j1013_6.mm'
+optimal = 23
+optal_solve_time = 0.007253427
+
+[[instances]]
+file = 'j10.mm/j1013_7.mm'
+optimal = 24
+optal_solve_time = 0.006728006
+
+[[instances]]
+file = 'j10.mm/j1013_8.mm'
+optimal = 19
+optal_solve_time = 0.006669706
+
+[[instances]]
+file = 'j10.mm/j1013_9.mm'
+optimal = 24
+optal_solve_time = 0.007141182
+
+[[instances]]
+file = 'j10.mm/j1014_10.mm'
+optimal = 15
+optal_solve_time = 0.006696889
+
+[[instances]]
+file = 'j10.mm/j1014_1.mm'
+optimal = 16
+optal_solve_time = 0.009782707
+test = true
+
+[[instances]]
+file = 'j10.mm/j1014_2.mm'
+optimal = 19
+optal_solve_time = 0.006812289
+
+[[instances]]
+file = 'j10.mm/j1014_3.mm'
+optimal = 22
+optal_solve_time = 0.006714502
+
+[[instances]]
+file = 'j10.mm/j1014_4.mm'
+optimal = 19
+optal_solve_time = 0.006259153
+
+[[instances]]
+file = 'j10.mm/j1014_5.mm'
+optimal = 19
+optal_solve_time = 0.007058299
+
+[[instances]]
+file = 'j10.mm/j1014_6.mm'
+optimal = 16
+optal_solve_time = 0.006804308
+
+[[instances]]
+file = 'j10.mm/j1014_7.mm'
+optimal = 21
+optal_solve_time = 0.007118571
+
+[[instances]]
+file = 'j10.mm/j1014_8.mm'
+optimal = 24
+optal_solve_time = 0.006913948
+
+[[instances]]
+file = 'j10.mm/j1014_9.mm'
+optimal = 22
+optal_solve_time = 0.006869301
+
+[[instances]]
+file = 'j10.mm/j1015_10.mm'
+optimal = 18
+optal_solve_time = 0.006558813
+
+[[instances]]
+file = 'j10.mm/j1015_1.mm'
+optimal = 13
+optal_solve_time = 0.006768239
+test = true
+
+[[instances]]
+file = 'j10.mm/j1015_2.mm'
+optimal = 25
+optal_solve_time = 0.006462354
+
+[[instances]]
+file = 'j10.mm/j1015_3.mm'
+optimal = 15
+optal_solve_time = 0.006648175
+
+[[instances]]
+file = 'j10.mm/j1015_4.mm'
+optimal = 15
+optal_solve_time = 0.006400286
+
+[[instances]]
+file = 'j10.mm/j1015_5.mm'
+optimal = 11
+optal_solve_time = 0.006654895
+
+[[instances]]
+file = 'j10.mm/j1015_6.mm'
+optimal = 19
+optal_solve_time = 0.006421897
+
+[[instances]]
+file = 'j10.mm/j1015_7.mm'
+optimal = 10
+optal_solve_time = 0.006504804
+
+[[instances]]
+file = 'j10.mm/j1015_8.mm'
+optimal = 11
+optal_solve_time = 0.006144565
+
+[[instances]]
+file = 'j10.mm/j1015_9.mm'
+optimal = 14
+optal_solve_time = 0.006279838
+
+[[instances]]
+file = 'j10.mm/j1016_10.mm'
+optimal = 26
+optal_solve_time = 0.006389366
+
+[[instances]]
+file = 'j10.mm/j1016_1.mm'
+optimal = 13
+optal_solve_time = 0.00699955
+test = true
+
+[[instances]]
+file = 'j10.mm/j1016_2.mm'
+optimal = 17
+optal_solve_time = 0.006068204
+
+[[instances]]
+file = 'j10.mm/j1016_3.mm'
+optimal = 12
+optal_solve_time = 0.006910988
+
+[[instances]]
+file = 'j10.mm/j1016_4.mm'
+optimal = 21
+optal_solve_time = 0.006925738
+
+[[instances]]
+file = 'j10.mm/j1016_5.mm'
+optimal = 25
+optal_solve_time = 0.006193019
+
+[[instances]]
+file = 'j10.mm/j1016_6.mm'
+optimal = 21
+optal_solve_time = 0.006624612
+
+[[instances]]
+file = 'j10.mm/j1016_7.mm'
+optimal = 12
+optal_solve_time = 0.006731225
+
+[[instances]]
+file = 'j10.mm/j1016_8.mm'
+optimal = 9
+optal_solve_time = 0.00587716
+
+[[instances]]
+file = 'j10.mm/j1016_9.mm'
+optimal = 16
+optal_solve_time = 0.006404801
+
+[[instances]]
+file = 'j10.mm/j1018_10.mm'
+optimal = 16
+optal_solve_time = 0.006324444
+
+[[instances]]
+file = 'j10.mm/j1018_1.mm'
+optimal = 15
+optal_solve_time = 0.006454573
+test = true
+
+[[instances]]
+file = 'j10.mm/j1018_2.mm'
+optimal = 15
+optal_solve_time = 0.007368723
+
+[[instances]]
+file = 'j10.mm/j1018_3.mm'
+optimal = 17
+optal_solve_time = 0.006411054
+
+[[instances]]
+file = 'j10.mm/j1018_4.mm'
+optimal = 19
+optal_solve_time = 0.007526186
+
+[[instances]]
+file = 'j10.mm/j1018_5.mm'
+optimal = 14
+optal_solve_time = 0.006107627
+
+[[instances]]
+file = 'j10.mm/j1018_6.mm'
+optimal = 15
+optal_solve_time = 0.006921452
+
+[[instances]]
+file = 'j10.mm/j1018_7.mm'
+optimal = 12
+optal_solve_time = 0.006642911
+
+[[instances]]
+file = 'j10.mm/j1018_8.mm'
+optimal = 16
+optal_solve_time = 0.006079859
+
+[[instances]]
+file = 'j10.mm/j1018_9.mm'
+optimal = 14
+optal_solve_time = 0.006758306
+
+[[instances]]
+file = 'j10.mm/j1019_10.mm'
+optimal = 11
+optal_solve_time = 0.006202707
+
+[[instances]]
+file = 'j10.mm/j1019_1.mm'
+optimal = 13
+optal_solve_time = 0.006513277
+test = true
+
+[[instances]]
+file = 'j10.mm/j1019_2.mm'
+optimal = 15
+optal_solve_time = 0.006153433
+
+[[instances]]
+file = 'j10.mm/j1019_3.mm'
+optimal = 16
+optal_solve_time = 0.007130195
+
+[[instances]]
+file = 'j10.mm/j1019_4.mm'
+optimal = 15
+optal_solve_time = 0.006248735
+
+[[instances]]
+file = 'j10.mm/j1019_5.mm'
+optimal = 13
+optal_solve_time = 0.007050438
+
+[[instances]]
+file = 'j10.mm/j1019_6.mm'
+optimal = 17
+optal_solve_time = 0.007363846
+
+[[instances]]
+file = 'j10.mm/j1019_7.mm'
+optimal = 14
+optal_solve_time = 0.007319746
+
+[[instances]]
+file = 'j10.mm/j1019_8.mm'
+optimal = 15
+optal_solve_time = 0.006287407
+
+[[instances]]
+file = 'j10.mm/j1019_9.mm'
+optimal = 12
+optal_solve_time = 0.007166252
+
+[[instances]]
+file = 'j10.mm/j1020_10.mm'
+optimal = 10
+optal_solve_time = 0.006964468
+
+[[instances]]
+file = 'j10.mm/j1020_1.mm'
+optimal = 12
+optal_solve_time = 0.00646992
+test = true
+
+[[instances]]
+file = 'j10.mm/j1020_2.mm'
+optimal = 18
+optal_solve_time = 0.006084059
+
+[[instances]]
+file = 'j10.mm/j1020_3.mm'
+optimal = 21
+optal_solve_time = 0.005880999
+
+[[instances]]
+file = 'j10.mm/j1020_4.mm'
+optimal = 17
+optal_solve_time = 0.006262957
+
+[[instances]]
+file = 'j10.mm/j1020_5.mm'
+optimal = 12
+optal_solve_time = 0.006782592
+
+[[instances]]
+file = 'j10.mm/j1020_6.mm'
+optimal = 20
+optal_solve_time = 0.006781488
+
+[[instances]]
+file = 'j10.mm/j1020_8.mm'
+optimal = 12
+optal_solve_time = 0.007180302
+
+[[instances]]
+file = 'j10.mm/j1020_9.mm'
+optimal = 9
+optal_solve_time = 0.00624334
+
+[[instances]]
+file = 'j10.mm/j102_10.mm'
+optimal = 33
+optal_solve_time = 0.017337643
+
+[[instances]]
+file = 'j10.mm/j1021_10.mm'
+optimal = 26
+optal_solve_time = 0.007782518
+
+[[instances]]
+file = 'j10.mm/j1021_1.mm'
+optimal = 27
+optal_solve_time = 0.006928417
+test = true
+
+[[instances]]
+file = 'j10.mm/j1021_2.mm'
+optimal = 23
+optal_solve_time = 0.007543936
+
+[[instances]]
+file = 'j10.mm/j1021_3.mm'
+optimal = 37
+optal_solve_time = 0.007242864
+
+[[instances]]
+file = 'j10.mm/j1021_4.mm'
+optimal = 23
+optal_solve_time = 0.007454889
+
+[[instances]]
+file = 'j10.mm/j1021_5.mm'
+optimal = 35
+optal_solve_time = 0.007526346
+
+[[instances]]
+file = 'j10.mm/j1021_6.mm'
+optimal = 29
+optal_solve_time = 0.006838808
+
+[[instances]]
+file = 'j10.mm/j1021_7.mm'
+optimal = 24
+optal_solve_time = 0.007398918
+
+[[instances]]
+file = 'j10.mm/j1021_8.mm'
+optimal = 23
+optal_solve_time = 0.007078307
+
+[[instances]]
+file = 'j10.mm/j1021_9.mm'
+optimal = 25
+optal_solve_time = 0.006394617
+
+[[instances]]
+file = 'j10.mm/j1022_10.mm'
+optimal = 19
+optal_solve_time = 0.006335055
+
+[[instances]]
+file = 'j10.mm/j1022_1.mm'
+optimal = 21
+optal_solve_time = 0.006976892
+test = true
+
+[[instances]]
+file = 'j10.mm/j1022_2.mm'
+optimal = 15
+optal_solve_time = 0.006241956
+
+[[instances]]
+file = 'j10.mm/j1022_3.mm'
+optimal = 23
+optal_solve_time = 0.00616379
+
+[[instances]]
+file = 'j10.mm/j1022_4.mm'
+optimal = 16
+optal_solve_time = 0.007479909
+
+[[instances]]
+file = 'j10.mm/j1022_5.mm'
+optimal = 15
+optal_solve_time = 0.006244265
+
+[[instances]]
+file = 'j10.mm/j1022_6.mm'
+optimal = 16
+optal_solve_time = 0.00660464
+
+[[instances]]
+file = 'j10.mm/j1022_7.mm'
+optimal = 12
+optal_solve_time = 0.006404857
+
+[[instances]]
+file = 'j10.mm/j1022_8.mm'
+optimal = 19
+optal_solve_time = 0.006416535
+
+[[instances]]
+file = 'j10.mm/j1022_9.mm'
+optimal = 19
+optal_solve_time = 0.006455774
+
+[[instances]]
+file = 'j10.mm/j102_2.mm'
+optimal = 20
+optal_solve_time = 0.006724129
+
+[[instances]]
+file = 'j10.mm/j1023_10.mm'
+optimal = 16
+optal_solve_time = 0.006495403
+
+[[instances]]
+file = 'j10.mm/j1023_1.mm'
+optimal = 15
+optal_solve_time = 0.007316498
+test = true
+
+[[instances]]
+file = 'j10.mm/j1023_2.mm'
+optimal = 15
+optal_solve_time = 0.006884417
+
+[[instances]]
+file = 'j10.mm/j1023_3.mm'
+optimal = 16
+optal_solve_time = 0.007033049
+
+[[instances]]
+file = 'j10.mm/j1023_4.mm'
+optimal = 21
+optal_solve_time = 0.006587892
+
+[[instances]]
+file = 'j10.mm/j1023_5.mm'
+optimal = 14
+optal_solve_time = 0.007282137
+
+[[instances]]
+file = 'j10.mm/j1023_6.mm'
+optimal = 19
+optal_solve_time = 0.006846566
+
+[[instances]]
+file = 'j10.mm/j1023_8.mm'
+optimal = 18
+optal_solve_time = 0.006826871
+
+[[instances]]
+file = 'j10.mm/j1023_9.mm'
+optimal = 13
+optal_solve_time = 0.00598598
+
+[[instances]]
+file = 'j10.mm/j1024_10.mm'
+optimal = 15
+optal_solve_time = 0.007623649
+
+[[instances]]
+file = 'j10.mm/j1024_1.mm'
+optimal = 8
+optal_solve_time = 0.006102329
+test = true
+
+[[instances]]
+file = 'j10.mm/j1024_2.mm'
+optimal = 14
+optal_solve_time = 0.006096935
+
+[[instances]]
+file = 'j10.mm/j1024_3.mm'
+optimal = 10
+optal_solve_time = 0.005883101
+
+[[instances]]
+file = 'j10.mm/j1024_4.mm'
+optimal = 15
+optal_solve_time = 0.006253939
+
+[[instances]]
+file = 'j10.mm/j1024_5.mm'
+optimal = 14
+optal_solve_time = 0.008149681
+
+[[instances]]
+file = 'j10.mm/j1024_6.mm'
+optimal = 16
+optal_solve_time = 0.006848655
+
+[[instances]]
+file = 'j10.mm/j1024_7.mm'
+optimal = 17
+optal_solve_time = 0.006372547
+
+[[instances]]
+file = 'j10.mm/j1024_8.mm'
+optimal = 25
+optal_solve_time = 0.005922096
+
+[[instances]]
+file = 'j10.mm/j1024_9.mm'
+optimal = 10
+optal_solve_time = 0.006669743
+
+[[instances]]
+file = 'j10.mm/j102_4.mm'
+optimal = 18
+optal_solve_time = 0.006797447
+
+[[instances]]
+file = 'j10.mm/j102_5.mm'
+optimal = 16
+optal_solve_time = 0.008290836
+
+[[instances]]
+file = 'j10.mm/j1026_10.mm'
+optimal = 16
+optal_solve_time = 0.006624158
+
+[[instances]]
+file = 'j10.mm/j1026_1.mm'
+optimal = 14
+optal_solve_time = 0.007167621
+test = true
+
+[[instances]]
+file = 'j10.mm/j1026_2.mm'
+optimal = 12
+optal_solve_time = 0.0064685
+
+[[instances]]
+file = 'j10.mm/j1026_3.mm'
+optimal = 16
+optal_solve_time = 0.007289165
+
+[[instances]]
+file = 'j10.mm/j1026_4.mm'
+optimal = 16
+optal_solve_time = 0.006697411
+
+[[instances]]
+file = 'j10.mm/j1026_5.mm'
+optimal = 18
+optal_solve_time = 0.007504807
+
+[[instances]]
+file = 'j10.mm/j1026_6.mm'
+optimal = 18
+optal_solve_time = 0.006380299
+
+[[instances]]
+file = 'j10.mm/j1026_7.mm'
+optimal = 14
+optal_solve_time = 0.00744946
+
+[[instances]]
+file = 'j10.mm/j1026_8.mm'
+optimal = 15
+optal_solve_time = 0.007157778
+
+[[instances]]
+file = 'j10.mm/j1026_9.mm'
+optimal = 11
+optal_solve_time = 0.007174489
+
+[[instances]]
+file = 'j10.mm/j102_6.mm'
+optimal = 16
+optal_solve_time = 0.00650108
+
+[[instances]]
+file = 'j10.mm/j1027_10.mm'
+optimal = 14
+optal_solve_time = 0.007130524
+
+[[instances]]
+file = 'j10.mm/j1027_1.mm'
+optimal = 15
+optal_solve_time = 0.006002068
+test = true
+
+[[instances]]
+file = 'j10.mm/j1027_2.mm'
+optimal = 12
+optal_solve_time = 0.006319704
+
+[[instances]]
+file = 'j10.mm/j1027_3.mm'
+optimal = 15
+optal_solve_time = 0.006317821
+
+[[instances]]
+file = 'j10.mm/j1027_4.mm'
+optimal = 15
+optal_solve_time = 0.007199131
+
+[[instances]]
+file = 'j10.mm/j1027_5.mm'
+optimal = 18
+optal_solve_time = 0.005838565
+
+[[instances]]
+file = 'j10.mm/j1027_6.mm'
+optimal = 14
+optal_solve_time = 0.007155411
+
+[[instances]]
+file = 'j10.mm/j1027_7.mm'
+optimal = 10
+optal_solve_time = 0.007385257
+
+[[instances]]
+file = 'j10.mm/j1027_8.mm'
+optimal = 12
+optal_solve_time = 0.006388285
+
+[[instances]]
+file = 'j10.mm/j1027_9.mm'
+optimal = 15
+optal_solve_time = 0.007239382
+
+[[instances]]
+file = 'j10.mm/j102_7.mm'
+optimal = 25
+optal_solve_time = 0.007335528
+
+[[instances]]
+file = 'j10.mm/j1028_10.mm'
+optimal = 18
+optal_solve_time = 0.006251593
+
+[[instances]]
+file = 'j10.mm/j1028_1.mm'
+optimal = 19
+optal_solve_time = 0.00590944
+test = true
+
+[[instances]]
+file = 'j10.mm/j1028_2.mm'
+optimal = 24
+optal_solve_time = 0.006767316
+
+[[instances]]
+file = 'j10.mm/j1028_3.mm'
+optimal = 20
+optal_solve_time = 0.007127192
+
+[[instances]]
+file = 'j10.mm/j1028_4.mm'
+optimal = 16
+optal_solve_time = 0.006994137
+
+[[instances]]
+file = 'j10.mm/j1028_5.mm'
+optimal = 18
+optal_solve_time = 0.00616966
+
+[[instances]]
+file = 'j10.mm/j1028_6.mm'
+optimal = 9
+optal_solve_time = 0.006960561
+
+[[instances]]
+file = 'j10.mm/j1028_7.mm'
+optimal = 15
+optal_solve_time = 0.006775471
+
+[[instances]]
+file = 'j10.mm/j1028_8.mm'
+optimal = 16
+optal_solve_time = 0.006179822
+
+[[instances]]
+file = 'j10.mm/j1028_9.mm'
+optimal = 12
+optal_solve_time = 0.006058396
+
+[[instances]]
+file = 'j10.mm/j1029_10.mm'
+optimal = 28
+optal_solve_time = 0.006195309
+
+[[instances]]
+file = 'j10.mm/j1029_1.mm'
+optimal = 20
+optal_solve_time = 0.00670343
+test = true
+
+[[instances]]
+file = 'j10.mm/j1029_2.mm'
+optimal = 19
+optal_solve_time = 0.006471746
+
+[[instances]]
+file = 'j10.mm/j1029_3.mm'
+optimal = 24
+optal_solve_time = 0.006125255
+
+[[instances]]
+file = 'j10.mm/j1029_4.mm'
+optimal = 23
+optal_solve_time = 0.00727175
+
+[[instances]]
+file = 'j10.mm/j1029_5.mm'
+optimal = 25
+optal_solve_time = 0.006548506
+
+[[instances]]
+file = 'j10.mm/j1029_6.mm'
+optimal = 27
+optal_solve_time = 0.006424869
+
+[[instances]]
+file = 'j10.mm/j1029_7.mm'
+optimal = 28
+optal_solve_time = 0.006260339
+
+[[instances]]
+file = 'j10.mm/j1029_8.mm'
+optimal = 23
+optal_solve_time = 0.007005752
+
+[[instances]]
+file = 'j10.mm/j1029_9.mm'
+optimal = 23
+optal_solve_time = 0.007524578
+
+[[instances]]
+file = 'j10.mm/j102_9.mm'
+optimal = 17
+optal_solve_time = 0.006556749
+
+[[instances]]
+file = 'j10.mm/j1030_10.mm'
+optimal = 17
+optal_solve_time = 0.006327901
+
+[[instances]]
+file = 'j10.mm/j1030_1.mm'
+optimal = 16
+optal_solve_time = 0.006253991
+test = true
+
+[[instances]]
+file = 'j10.mm/j1030_2.mm'
+optimal = 17
+optal_solve_time = 0.006954247
+
+[[instances]]
+file = 'j10.mm/j1030_3.mm'
+optimal = 17
+optal_solve_time = 0.006230503
+
+[[instances]]
+file = 'j10.mm/j1030_4.mm'
+optimal = 12
+optal_solve_time = 0.006252065
+
+[[instances]]
+file = 'j10.mm/j1030_5.mm'
+optimal = 28
+optal_solve_time = 0.006506606
+
+[[instances]]
+file = 'j10.mm/j1030_6.mm'
+optimal = 22
+optal_solve_time = 0.006442624
+
+[[instances]]
+file = 'j10.mm/j1030_7.mm'
+optimal = 15
+optal_solve_time = 0.00645804
+
+[[instances]]
+file = 'j10.mm/j1030_8.mm'
+optimal = 14
+optal_solve_time = 0.006430449
+
+[[instances]]
+file = 'j10.mm/j1030_9.mm'
+optimal = 15
+optal_solve_time = 0.006531124
+
+[[instances]]
+file = 'j10.mm/j103_10.mm'
+optimal = 16
+optal_solve_time = 0.006224938
+
+[[instances]]
+file = 'j10.mm/j1031_10.mm'
+optimal = 13
+optal_solve_time = 0.006299909
+
+[[instances]]
+file = 'j10.mm/j1031_1.mm'
+optimal = 17
+optal_solve_time = 0.006166475
+test = true
+
+[[instances]]
+file = 'j10.mm/j1031_2.mm'
+optimal = 15
+optal_solve_time = 0.006295554
+
+[[instances]]
+file = 'j10.mm/j1031_3.mm'
+optimal = 15
+optal_solve_time = 0.007258304
+
+[[instances]]
+file = 'j10.mm/j1031_4.mm'
+optimal = 18
+optal_solve_time = 0.007076836
+
+[[instances]]
+file = 'j10.mm/j1031_5.mm'
+optimal = 15
+optal_solve_time = 0.007046895
+
+[[instances]]
+file = 'j10.mm/j1031_6.mm'
+optimal = 20
+optal_solve_time = 0.006436991
+
+[[instances]]
+file = 'j10.mm/j1031_7.mm'
+optimal = 14
+optal_solve_time = 0.00677073
+
+[[instances]]
+file = 'j10.mm/j1031_8.mm'
+optimal = 16
+optal_solve_time = 0.006932513
+
+[[instances]]
+file = 'j10.mm/j1031_9.mm'
+optimal = 15
+optal_solve_time = 0.006301477
+
+[[instances]]
+file = 'j10.mm/j1032_10.mm'
+optimal = 13
+optal_solve_time = 0.006757232
+
+[[instances]]
+file = 'j10.mm/j1032_1.mm'
+optimal = 17
+optal_solve_time = 0.007033877
+test = true
+
+[[instances]]
+file = 'j10.mm/j1032_2.mm'
+optimal = 12
+optal_solve_time = 0.007129485
+
+[[instances]]
+file = 'j10.mm/j1032_3.mm'
+optimal = 19
+optal_solve_time = 0.005961932
+
+[[instances]]
+file = 'j10.mm/j1032_4.mm'
+optimal = 12
+optal_solve_time = 0.006375667
+
+[[instances]]
+file = 'j10.mm/j1032_5.mm'
+optimal = 11
+optal_solve_time = 0.005607
+
+[[instances]]
+file = 'j10.mm/j1032_6.mm'
+optimal = 17
+optal_solve_time = 0.006191214
+
+[[instances]]
+file = 'j10.mm/j1032_7.mm'
+optimal = 16
+optal_solve_time = 0.006692484
+
+[[instances]]
+file = 'j10.mm/j1032_8.mm'
+optimal = 12
+optal_solve_time = 0.005872007
+
+[[instances]]
+file = 'j10.mm/j1032_9.mm'
+optimal = 15
+optal_solve_time = 0.006882648
+
+[[instances]]
+file = 'j10.mm/j103_2.mm'
+optimal = 13
+optal_solve_time = 0.006165266
+
+[[instances]]
+file = 'j10.mm/j103_3.mm'
+optimal = 19
+optal_solve_time = 0.006453882
+
+[[instances]]
+file = 'j10.mm/j1034_10.mm'
+optimal = 18
+optal_solve_time = 0.027612934
+
+[[instances]]
+file = 'j10.mm/j1034_1.mm'
+optimal = 23
+optal_solve_time = 0.011202742
+test = true
+
+[[instances]]
+file = 'j10.mm/j1034_2.mm'
+optimal = 12
+optal_solve_time = 0.007447044
+
+[[instances]]
+file = 'j10.mm/j1034_3.mm'
+optimal = 25
+optal_solve_time = 0.028607037
+
+[[instances]]
+file = 'j10.mm/j1034_4.mm'
+optimal = 23
+optal_solve_time = 0.026003525
+
+[[instances]]
+file = 'j10.mm/j1034_5.mm'
+optimal = 22
+optal_solve_time = 0.016733658
+
+[[instances]]
+file = 'j10.mm/j1034_6.mm'
+optimal = 30
+optal_solve_time = 0.022509596
+
+[[instances]]
+file = 'j10.mm/j1034_7.mm'
+optimal = 26
+optal_solve_time = 0.015331603
+
+[[instances]]
+file = 'j10.mm/j1034_8.mm'
+optimal = 19
+optal_solve_time = 0.012035626
+
+[[instances]]
+file = 'j10.mm/j1034_9.mm'
+optimal = 26
+optal_solve_time = 0.012583575
+
+[[instances]]
+file = 'j10.mm/j103_4.mm'
+optimal = 23
+optal_solve_time = 0.005634549
+
+[[instances]]
+file = 'j10.mm/j1035_10.mm'
+optimal = 20
+optal_solve_time = 0.0107588
+
+[[instances]]
+file = 'j10.mm/j1035_1.mm'
+optimal = 28
+optal_solve_time = 0.017447909
+test = true
+
+[[instances]]
+file = 'j10.mm/j1035_2.mm'
+optimal = 32
+optal_solve_time = 0.013602595
+
+[[instances]]
+file = 'j10.mm/j1035_3.mm'
+optimal = 34
+optal_solve_time = 0.026007281
+
+[[instances]]
+file = 'j10.mm/j1035_4.mm'
+optimal = 23
+optal_solve_time = 0.016360662
+
+[[instances]]
+file = 'j10.mm/j1035_5.mm'
+optimal = 24
+optal_solve_time = 0.011940998
+
+[[instances]]
+file = 'j10.mm/j1035_6.mm'
+optimal = 19
+optal_solve_time = 0.008527827
+
+[[instances]]
+file = 'j10.mm/j1035_7.mm'
+optimal = 22
+optal_solve_time = 0.019236225
+
+[[instances]]
+file = 'j10.mm/j1035_8.mm'
+optimal = 28
+optal_solve_time = 0.013847812
+
+[[instances]]
+file = 'j10.mm/j1035_9.mm'
+optimal = 18
+optal_solve_time = 0.011468841
+
+[[instances]]
+file = 'j10.mm/j103_5.mm'
+optimal = 21
+optal_solve_time = 0.006668915
+
+[[instances]]
+file = 'j10.mm/j1036_10.mm'
+optimal = 33
+optal_solve_time = 0.015838726
+
+[[instances]]
+file = 'j10.mm/j1036_1.mm'
+optimal = 32
+optal_solve_time = 0.009838577
+test = true
+
+[[instances]]
+file = 'j10.mm/j1036_2.mm'
+optimal = 26
+optal_solve_time = 0.023317001
+
+[[instances]]
+file = 'j10.mm/j1036_3.mm'
+optimal = 17
+optal_solve_time = 0.01246438
+
+[[instances]]
+file = 'j10.mm/j1036_4.mm'
+optimal = 22
+optal_solve_time = 0.006935712
+
+[[instances]]
+file = 'j10.mm/j1036_5.mm'
+optimal = 23
+optal_solve_time = 0.050953488
+
+[[instances]]
+file = 'j10.mm/j1036_6.mm'
+optimal = 21
+optal_solve_time = 0.008175753
+
+[[instances]]
+file = 'j10.mm/j1036_7.mm'
+optimal = 25
+optal_solve_time = 0.008256357
+
+[[instances]]
+file = 'j10.mm/j1036_8.mm'
+optimal = 23
+optal_solve_time = 0.008316747
+
+[[instances]]
+file = 'j10.mm/j103_6.mm'
+optimal = 29
+optal_solve_time = 0.006190791
+
+[[instances]]
+file = 'j10.mm/j1037_10.mm'
+optimal = 40
+optal_solve_time = 0.021090593
+
+[[instances]]
+file = 'j10.mm/j1037_1.mm'
+optimal = 36
+optal_solve_time = 0.008245768
+test = true
+
+[[instances]]
+file = 'j10.mm/j1037_2.mm'
+optimal = 27
+optal_solve_time = 0.008216755
+
+[[instances]]
+file = 'j10.mm/j1037_3.mm'
+optimal = 29
+optal_solve_time = 0.007194755
+
+[[instances]]
+file = 'j10.mm/j1037_4.mm'
+optimal = 33
+optal_solve_time = 0.011072834
+
+[[instances]]
+file = 'j10.mm/j1037_5.mm'
+optimal = 38
+optal_solve_time = 0.013514085
+
+[[instances]]
+file = 'j10.mm/j1037_6.mm'
+optimal = 28
+optal_solve_time = 0.010504982
+
+[[instances]]
+file = 'j10.mm/j1037_7.mm'
+optimal = 30
+optal_solve_time = 0.011621042
+
+[[instances]]
+file = 'j10.mm/j1037_8.mm'
+optimal = 42
+optal_solve_time = 0.010885575
+
+[[instances]]
+file = 'j10.mm/j1037_9.mm'
+optimal = 31
+optal_solve_time = 0.01232795
+
+[[instances]]
+file = 'j10.mm/j103_7.mm'
+optimal = 14
+optal_solve_time = 0.006266927
+
+[[instances]]
+file = 'j10.mm/j1038_10.mm'
+optimal = 22
+optal_solve_time = 0.014821059
+
+[[instances]]
+file = 'j10.mm/j1038_1.mm'
+optimal = 28
+optal_solve_time = 0.006715037
+test = true
+
+[[instances]]
+file = 'j10.mm/j1038_2.mm'
+optimal = 25
+optal_solve_time = 0.015440391
+
+[[instances]]
+file = 'j10.mm/j1038_3.mm'
+optimal = 25
+optal_solve_time = 0.011021492
+
+[[instances]]
+file = 'j10.mm/j1038_4.mm'
+optimal = 27
+optal_solve_time = 0.010113868
+
+[[instances]]
+file = 'j10.mm/j1038_5.mm'
+optimal = 22
+optal_solve_time = 0.008965039
+
+[[instances]]
+file = 'j10.mm/j1038_6.mm'
+optimal = 24
+optal_solve_time = 0.018070288
+
+[[instances]]
+file = 'j10.mm/j1038_7.mm'
+optimal = 32
+optal_solve_time = 0.023822774
+
+[[instances]]
+file = 'j10.mm/j1038_8.mm'
+optimal = 31
+optal_solve_time = 0.01093104
+
+[[instances]]
+file = 'j10.mm/j1038_9.mm'
+optimal = 31
+optal_solve_time = 0.020127074
+
+[[instances]]
+file = 'j10.mm/j103_8.mm'
+optimal = 24
+optal_solve_time = 0.006896579
+
+[[instances]]
+file = 'j10.mm/j1039_10.mm'
+optimal = 31
+optal_solve_time = 0.011060098
+
+[[instances]]
+file = 'j10.mm/j1039_1.mm'
+optimal = 21
+optal_solve_time = 0.035300463
+test = true
+
+[[instances]]
+file = 'j10.mm/j1039_2.mm'
+optimal = 18
+optal_solve_time = 0.015272463
+
+[[instances]]
+file = 'j10.mm/j1039_3.mm'
+optimal = 28
+optal_solve_time = 0.018141889
+
+[[instances]]
+file = 'j10.mm/j1039_4.mm'
+optimal = 17
+optal_solve_time = 0.013982724
+
+[[instances]]
+file = 'j10.mm/j1039_5.mm'
+optimal = 30
+optal_solve_time = 0.013123493
+
+[[instances]]
+file = 'j10.mm/j1039_6.mm'
+optimal = 24
+optal_solve_time = 0.014453797
+
+[[instances]]
+file = 'j10.mm/j1039_7.mm'
+optimal = 17
+optal_solve_time = 0.008377677
+
+[[instances]]
+file = 'j10.mm/j1039_8.mm'
+optimal = 23
+optal_solve_time = 0.018635521
+
+[[instances]]
+file = 'j10.mm/j1039_9.mm'
+optimal = 24
+optal_solve_time = 0.011998202
+
+[[instances]]
+file = 'j10.mm/j103_9.mm'
+optimal = 20
+optal_solve_time = 0.007155891
+
+[[instances]]
+file = 'j10.mm/j1040_10.mm'
+optimal = 16
+optal_solve_time = 0.010533222
+
+[[instances]]
+file = 'j10.mm/j1040_1.mm'
+optimal = 19
+optal_solve_time = 0.021849109
+test = true
+
+[[instances]]
+file = 'j10.mm/j1040_2.mm'
+optimal = 32
+optal_solve_time = 0.016225719
+
+[[instances]]
+file = 'j10.mm/j1040_3.mm'
+optimal = 25
+optal_solve_time = 0.050207817
+
+[[instances]]
+file = 'j10.mm/j1040_5.mm'
+optimal = 21
+optal_solve_time = 0.007387281
+
+[[instances]]
+file = 'j10.mm/j1040_6.mm'
+optimal = 18
+optal_solve_time = 0.007473516
+
+[[instances]]
+file = 'j10.mm/j1040_7.mm'
+optimal = 28
+optal_solve_time = 0.024840936
+
+[[instances]]
+file = 'j10.mm/j1040_8.mm'
+optimal = 29
+optal_solve_time = 0.027961922
+
+[[instances]]
+file = 'j10.mm/j1040_9.mm'
+optimal = 19
+optal_solve_time = 0.015424146
+
+[[instances]]
+file = 'j10.mm/j104_10.mm'
+optimal = 15
+optal_solve_time = 0.006672379
+
+[[instances]]
+file = 'j10.mm/j104_1.mm'
+optimal = 27
+optal_solve_time = 0.00551271
+test = true
+
+[[instances]]
+file = 'j10.mm/j1042_10.mm'
+optimal = 12
+optal_solve_time = 0.006815011
+
+[[instances]]
+file = 'j10.mm/j1042_1.mm'
+optimal = 17
+optal_solve_time = 0.00863444
+test = true
+
+[[instances]]
+file = 'j10.mm/j1042_2.mm'
+optimal = 15
+optal_solve_time = 0.006094267
+
+[[instances]]
+file = 'j10.mm/j1042_3.mm'
+optimal = 25
+optal_solve_time = 0.00615298
+
+[[instances]]
+file = 'j10.mm/j1042_4.mm'
+optimal = 14
+optal_solve_time = 0.007779879
+
+[[instances]]
+file = 'j10.mm/j1042_5.mm'
+optimal = 20
+optal_solve_time = 0.006818674
+
+[[instances]]
+file = 'j10.mm/j1042_6.mm'
+optimal = 12
+optal_solve_time = 0.007834583
+
+[[instances]]
+file = 'j10.mm/j1042_7.mm'
+optimal = 26
+optal_solve_time = 0.007613306
+
+[[instances]]
+file = 'j10.mm/j1042_8.mm'
+optimal = 18
+optal_solve_time = 0.006362576
+
+[[instances]]
+file = 'j10.mm/j1042_9.mm'
+optimal = 12
+optal_solve_time = 0.006548045
+
+[[instances]]
+file = 'j10.mm/j104_2.mm'
+optimal = 20
+optal_solve_time = 0.005818998
+
+[[instances]]
+file = 'j10.mm/j1043_10.mm'
+optimal = 16
+optal_solve_time = 0.00706552
+
+[[instances]]
+file = 'j10.mm/j1043_1.mm'
+optimal = 18
+optal_solve_time = 0.00764825
+test = true
+
+[[instances]]
+file = 'j10.mm/j1043_2.mm'
+optimal = 15
+optal_solve_time = 0.006533813
+
+[[instances]]
+file = 'j10.mm/j1043_3.mm'
+optimal = 17
+optal_solve_time = 0.009983086
+
+[[instances]]
+file = 'j10.mm/j1043_4.mm'
+optimal = 15
+optal_solve_time = 0.00744984
+
+[[instances]]
+file = 'j10.mm/j1043_5.mm'
+optimal = 19
+optal_solve_time = 0.008211021
+
+[[instances]]
+file = 'j10.mm/j1043_6.mm'
+optimal = 16
+optal_solve_time = 0.006661769
+
+[[instances]]
+file = 'j10.mm/j1043_7.mm'
+optimal = 12
+optal_solve_time = 0.008266447
+
+[[instances]]
+file = 'j10.mm/j1043_8.mm'
+optimal = 21
+optal_solve_time = 0.006598279
+
+[[instances]]
+file = 'j10.mm/j1043_9.mm'
+optimal = 11
+optal_solve_time = 0.006741213
+
+[[instances]]
+file = 'j10.mm/j104_3.mm'
+optimal = 23
+optal_solve_time = 0.006100028
+
+[[instances]]
+file = 'j10.mm/j1044_10.mm'
+optimal = 13
+optal_solve_time = 0.007170881
+
+[[instances]]
+file = 'j10.mm/j1044_1.mm'
+optimal = 18
+optal_solve_time = 0.007869613
+test = true
+
+[[instances]]
+file = 'j10.mm/j1044_2.mm'
+optimal = 16
+optal_solve_time = 0.006721273
+
+[[instances]]
+file = 'j10.mm/j1044_3.mm'
+optimal = 20
+optal_solve_time = 0.007774616
+
+[[instances]]
+file = 'j10.mm/j1044_4.mm'
+optimal = 24
+optal_solve_time = 0.006806702
+
+[[instances]]
+file = 'j10.mm/j1044_5.mm'
+optimal = 24
+optal_solve_time = 0.006685767
+
+[[instances]]
+file = 'j10.mm/j1044_7.mm'
+optimal = 15
+optal_solve_time = 0.007070676
+
+[[instances]]
+file = 'j10.mm/j1044_8.mm'
+optimal = 16
+optal_solve_time = 0.007648387
+
+[[instances]]
+file = 'j10.mm/j1044_9.mm'
+optimal = 17
+optal_solve_time = 0.0067395
+
+[[instances]]
+file = 'j10.mm/j104_4.mm'
+optimal = 15
+optal_solve_time = 0.006527713
+
+[[instances]]
+file = 'j10.mm/j1045_10.mm'
+optimal = 25
+optal_solve_time = 0.007386787
+
+[[instances]]
+file = 'j10.mm/j1045_1.mm'
+optimal = 27
+optal_solve_time = 0.008088083
+test = true
+
+[[instances]]
+file = 'j10.mm/j1045_2.mm'
+optimal = 20
+optal_solve_time = 0.006651843
+
+[[instances]]
+file = 'j10.mm/j1045_3.mm'
+optimal = 18
+optal_solve_time = 0.007819015
+
+[[instances]]
+file = 'j10.mm/j1045_4.mm'
+optimal = 19
+optal_solve_time = 0.008048491
+
+[[instances]]
+file = 'j10.mm/j1045_5.mm'
+optimal = 28
+optal_solve_time = 0.00992966
+
+[[instances]]
+file = 'j10.mm/j1045_6.mm'
+optimal = 23
+optal_solve_time = 0.00915487
+
+[[instances]]
+file = 'j10.mm/j1045_7.mm'
+optimal = 31
+optal_solve_time = 0.007437162
+
+[[instances]]
+file = 'j10.mm/j1045_8.mm'
+optimal = 23
+optal_solve_time = 0.006679244
+
+[[instances]]
+file = 'j10.mm/j1045_9.mm'
+optimal = 24
+optal_solve_time = 0.0067726
+
+[[instances]]
+file = 'j10.mm/j104_5.mm'
+optimal = 31
+optal_solve_time = 0.007103671
+
+[[instances]]
+file = 'j10.mm/j1046_10.mm'
+optimal = 20
+optal_solve_time = 0.007577253
+
+[[instances]]
+file = 'j10.mm/j1046_1.mm'
+optimal = 24
+optal_solve_time = 0.011244844
+test = true
+
+[[instances]]
+file = 'j10.mm/j1046_2.mm'
+optimal = 14
+optal_solve_time = 0.008432104
+
+[[instances]]
+file = 'j10.mm/j1046_3.mm'
+optimal = 15
+optal_solve_time = 0.007799594
+
+[[instances]]
+file = 'j10.mm/j1046_4.mm'
+optimal = 18
+optal_solve_time = 0.008000002
+
+[[instances]]
+file = 'j10.mm/j1046_5.mm'
+optimal = 18
+optal_solve_time = 0.007966883
+
+[[instances]]
+file = 'j10.mm/j1046_6.mm'
+optimal = 23
+optal_solve_time = 0.007888466
+
+[[instances]]
+file = 'j10.mm/j1046_7.mm'
+optimal = 21
+optal_solve_time = 0.007739975
+
+[[instances]]
+file = 'j10.mm/j1046_8.mm'
+optimal = 21
+optal_solve_time = 0.009729704
+
+[[instances]]
+file = 'j10.mm/j1046_9.mm'
+optimal = 16
+optal_solve_time = 0.00795866
+
+[[instances]]
+file = 'j10.mm/j104_6.mm'
+optimal = 21
+optal_solve_time = 0.00648932
+
+[[instances]]
+file = 'j10.mm/j1047_10.mm'
+optimal = 29
+optal_solve_time = 0.0169349
+
+[[instances]]
+file = 'j10.mm/j1047_1.mm'
+optimal = 20
+optal_solve_time = 0.009552731
+test = true
+
+[[instances]]
+file = 'j10.mm/j1047_2.mm'
+optimal = 15
+optal_solve_time = 0.006321234
+
+[[instances]]
+file = 'j10.mm/j1047_3.mm'
+optimal = 19
+optal_solve_time = 0.007272585
+
+[[instances]]
+file = 'j10.mm/j1047_4.mm'
+optimal = 25
+optal_solve_time = 0.007169824
+
+[[instances]]
+file = 'j10.mm/j1047_5.mm'
+optimal = 16
+optal_solve_time = 0.007126774
+
+[[instances]]
+file = 'j10.mm/j1047_6.mm'
+optimal = 19
+optal_solve_time = 0.007086604
+
+[[instances]]
+file = 'j10.mm/j1047_7.mm'
+optimal = 18
+optal_solve_time = 0.007119214
+
+[[instances]]
+file = 'j10.mm/j1047_8.mm'
+optimal = 21
+optal_solve_time = 0.007333088
+
+[[instances]]
+file = 'j10.mm/j1047_9.mm'
+optimal = 16
+optal_solve_time = 0.006494497
+
+[[instances]]
+file = 'j10.mm/j1048_10.mm'
+optimal = 16
+optal_solve_time = 0.006359255
+
+[[instances]]
+file = 'j10.mm/j1048_1.mm'
+optimal = 16
+optal_solve_time = 0.007283526
+test = true
+
+[[instances]]
+file = 'j10.mm/j1048_2.mm'
+optimal = 16
+optal_solve_time = 0.008104075
+
+[[instances]]
+file = 'j10.mm/j1048_3.mm'
+optimal = 13
+optal_solve_time = 0.006370254
+
+[[instances]]
+file = 'j10.mm/j1048_4.mm'
+optimal = 10
+optal_solve_time = 0.00643445
+
+[[instances]]
+file = 'j10.mm/j1048_5.mm'
+optimal = 14
+optal_solve_time = 0.005798917
+
+[[instances]]
+file = 'j10.mm/j1048_6.mm'
+optimal = 14
+optal_solve_time = 0.006601539
+
+[[instances]]
+file = 'j10.mm/j1048_7.mm'
+optimal = 14
+optal_solve_time = 0.006210931
+
+[[instances]]
+file = 'j10.mm/j1048_8.mm'
+optimal = 24
+optal_solve_time = 0.005995017
+
+[[instances]]
+file = 'j10.mm/j1048_9.mm'
+optimal = 16
+optal_solve_time = 0.006446821
+
+[[instances]]
+file = 'j10.mm/j104_8.mm'
+optimal = 19
+optal_solve_time = 0.005922091
+
+[[instances]]
+file = 'j10.mm/j104_9.mm'
+optimal = 21
+optal_solve_time = 0.005731729
+
+[[instances]]
+file = 'j10.mm/j1050_10.mm'
+optimal = 17
+optal_solve_time = 0.008020475
+
+[[instances]]
+file = 'j10.mm/j1050_1.mm'
+optimal = 13
+optal_solve_time = 0.007119535
+test = true
+
+[[instances]]
+file = 'j10.mm/j1050_2.mm'
+optimal = 20
+optal_solve_time = 0.006200418
+
+[[instances]]
+file = 'j10.mm/j1050_3.mm'
+optimal = 17
+optal_solve_time = 0.007284531
+
+[[instances]]
+file = 'j10.mm/j1050_4.mm'
+optimal = 20
+optal_solve_time = 0.007811791
+
+[[instances]]
+file = 'j10.mm/j1050_5.mm'
+optimal = 10
+optal_solve_time = 0.00656423
+
+[[instances]]
+file = 'j10.mm/j1050_6.mm'
+optimal = 12
+optal_solve_time = 0.006382639
+
+[[instances]]
+file = 'j10.mm/j1050_7.mm'
+optimal = 26
+optal_solve_time = 0.007496602
+
+[[instances]]
+file = 'j10.mm/j1050_8.mm'
+optimal = 11
+optal_solve_time = 0.006931355
+
+[[instances]]
+file = 'j10.mm/j1050_9.mm'
+optimal = 20
+optal_solve_time = 0.007233167
+
+[[instances]]
+file = 'j10.mm/j105_10.mm'
+optimal = 25
+optal_solve_time = 0.007153838
+
+[[instances]]
+file = 'j10.mm/j1051_10.mm'
+optimal = 12
+optal_solve_time = 0.006844171
+
+[[instances]]
+file = 'j10.mm/j1051_1.mm'
+optimal = 23
+optal_solve_time = 0.006658072
+test = true
+
+[[instances]]
+file = 'j10.mm/j1051_2.mm'
+optimal = 14
+optal_solve_time = 0.007318684
+
+[[instances]]
+file = 'j10.mm/j1051_3.mm'
+optimal = 15
+optal_solve_time = 0.008083247
+
+[[instances]]
+file = 'j10.mm/j1051_4.mm'
+optimal = 17
+optal_solve_time = 0.0069648
+
+[[instances]]
+file = 'j10.mm/j1051_5.mm'
+optimal = 29
+optal_solve_time = 0.007731641
+
+[[instances]]
+file = 'j10.mm/j1051_6.mm'
+optimal = 9
+optal_solve_time = 0.00726953
+
+[[instances]]
+file = 'j10.mm/j1051_7.mm'
+optimal = 21
+optal_solve_time = 0.006982798
+
+[[instances]]
+file = 'j10.mm/j1051_8.mm'
+optimal = 14
+optal_solve_time = 0.006378622
+
+[[instances]]
+file = 'j10.mm/j1051_9.mm'
+optimal = 19
+optal_solve_time = 0.006740675
+
+[[instances]]
+file = 'j10.mm/j105_1.mm'
+optimal = 42
+optal_solve_time = 0.006885699
+test = true
+
+[[instances]]
+file = 'j10.mm/j1052_10.mm'
+optimal = 10
+optal_solve_time = 0.007623061
+
+[[instances]]
+file = 'j10.mm/j1052_1.mm'
+optimal = 11
+optal_solve_time = 0.006533293
+test = true
+
+[[instances]]
+file = 'j10.mm/j1052_2.mm'
+optimal = 18
+optal_solve_time = 0.007122827
+
+[[instances]]
+file = 'j10.mm/j1052_3.mm'
+optimal = 8
+optal_solve_time = 0.007399784
+
+[[instances]]
+file = 'j10.mm/j1052_4.mm'
+optimal = 15
+optal_solve_time = 0.006582547
+
+[[instances]]
+file = 'j10.mm/j1052_5.mm'
+optimal = 19
+optal_solve_time = 0.006256372
+
+[[instances]]
+file = 'j10.mm/j1052_6.mm'
+optimal = 14
+optal_solve_time = 0.006910811
+
+[[instances]]
+file = 'j10.mm/j1052_7.mm'
+optimal = 16
+optal_solve_time = 0.007071104
+
+[[instances]]
+file = 'j10.mm/j1052_8.mm'
+optimal = 16
+optal_solve_time = 0.006770605
+
+[[instances]]
+file = 'j10.mm/j1052_9.mm'
+optimal = 17
+optal_solve_time = 0.006577206
+
+[[instances]]
+file = 'j10.mm/j1053_10.mm'
+optimal = 30
+optal_solve_time = 0.007968118
+
+[[instances]]
+file = 'j10.mm/j1053_1.mm'
+optimal = 28
+optal_solve_time = 0.008013905
+test = true
+
+[[instances]]
+file = 'j10.mm/j1053_2.mm'
+optimal = 33
+optal_solve_time = 0.006901591
+
+[[instances]]
+file = 'j10.mm/j1053_3.mm'
+optimal = 26
+optal_solve_time = 0.007439143
+
+[[instances]]
+file = 'j10.mm/j1053_4.mm'
+optimal = 23
+optal_solve_time = 0.007047494
+
+[[instances]]
+file = 'j10.mm/j1053_5.mm'
+optimal = 26
+optal_solve_time = 0.008193131
+
+[[instances]]
+file = 'j10.mm/j1053_6.mm'
+optimal = 29
+optal_solve_time = 0.006949384
+
+[[instances]]
+file = 'j10.mm/j1053_7.mm'
+optimal = 18
+optal_solve_time = 0.006924322
+
+[[instances]]
+file = 'j10.mm/j1053_8.mm'
+optimal = 25
+optal_solve_time = 0.007777154
+
+[[instances]]
+file = 'j10.mm/j1053_9.mm'
+optimal = 29
+optal_solve_time = 0.008453207
+
+[[instances]]
+file = 'j10.mm/j105_3.mm'
+optimal = 32
+optal_solve_time = 0.008818581
+
+[[instances]]
+file = 'j10.mm/j1054_10.mm'
+optimal = 19
+optal_solve_time = 0.007216335
+
+[[instances]]
+file = 'j10.mm/j1054_1.mm'
+optimal = 18
+optal_solve_time = 0.007158529
+test = true
+
+[[instances]]
+file = 'j10.mm/j1054_2.mm'
+optimal = 22
+optal_solve_time = 0.00765237
+
+[[instances]]
+file = 'j10.mm/j1054_3.mm'
+optimal = 23
+optal_solve_time = 0.007397631
+
+[[instances]]
+file = 'j10.mm/j1054_4.mm'
+optimal = 18
+optal_solve_time = 0.006851753
+
+[[instances]]
+file = 'j10.mm/j1054_5.mm'
+optimal = 14
+optal_solve_time = 0.007439706
+
+[[instances]]
+file = 'j10.mm/j1054_6.mm'
+optimal = 14
+optal_solve_time = 0.006905395
+
+[[instances]]
+file = 'j10.mm/j1054_7.mm'
+optimal = 21
+optal_solve_time = 0.007830447
+
+[[instances]]
+file = 'j10.mm/j1054_8.mm'
+optimal = 18
+optal_solve_time = 0.009708208
+
+[[instances]]
+file = 'j10.mm/j1054_9.mm'
+optimal = 22
+optal_solve_time = 0.007703417
+
+[[instances]]
+file = 'j10.mm/j105_4.mm'
+optimal = 23
+optal_solve_time = 0.007770758
+
+[[instances]]
+file = 'j10.mm/j1055_10.mm'
+optimal = 17
+optal_solve_time = 0.007754955
+
+[[instances]]
+file = 'j10.mm/j1055_1.mm'
+optimal = 18
+optal_solve_time = 0.008973034
+test = true
+
+[[instances]]
+file = 'j10.mm/j1055_2.mm'
+optimal = 14
+optal_solve_time = 0.007051769
+
+[[instances]]
+file = 'j10.mm/j1055_3.mm'
+optimal = 13
+optal_solve_time = 0.006499849
+
+[[instances]]
+file = 'j10.mm/j1055_4.mm'
+optimal = 24
+optal_solve_time = 0.006764506
+
+[[instances]]
+file = 'j10.mm/j1055_5.mm'
+optimal = 13
+optal_solve_time = 0.006740421
+
+[[instances]]
+file = 'j10.mm/j1055_6.mm'
+optimal = 19
+optal_solve_time = 0.007819509
+
+[[instances]]
+file = 'j10.mm/j1055_7.mm'
+optimal = 16
+optal_solve_time = 0.00801575
+
+[[instances]]
+file = 'j10.mm/j1055_8.mm'
+optimal = 20
+optal_solve_time = 0.011855649
+
+[[instances]]
+file = 'j10.mm/j1055_9.mm'
+optimal = 13
+optal_solve_time = 0.008360083
+
+[[instances]]
+file = 'j10.mm/j1056_10.mm'
+optimal = 14
+optal_solve_time = 0.007299874
+
+[[instances]]
+file = 'j10.mm/j1056_1.mm'
+optimal = 14
+optal_solve_time = 0.006935714
+test = true
+
+[[instances]]
+file = 'j10.mm/j1056_2.mm'
+optimal = 13
+optal_solve_time = 0.006541017
+
+[[instances]]
+file = 'j10.mm/j1056_3.mm'
+optimal = 23
+optal_solve_time = 0.006067318
+
+[[instances]]
+file = 'j10.mm/j1056_4.mm'
+optimal = 10
+optal_solve_time = 0.00754069
+
+[[instances]]
+file = 'j10.mm/j1056_5.mm'
+optimal = 14
+optal_solve_time = 0.007900005
+
+[[instances]]
+file = 'j10.mm/j1056_6.mm'
+optimal = 13
+optal_solve_time = 0.007697743
+
+[[instances]]
+file = 'j10.mm/j1056_7.mm'
+optimal = 18
+optal_solve_time = 0.006956547
+
+[[instances]]
+file = 'j10.mm/j1056_8.mm'
+optimal = 15
+optal_solve_time = 0.006824231
+
+[[instances]]
+file = 'j10.mm/j1056_9.mm'
+optimal = 14
+optal_solve_time = 0.006224561
+
+[[instances]]
+file = 'j10.mm/j105_6.mm'
+optimal = 34
+optal_solve_time = 0.008592555
+
+[[instances]]
+file = 'j10.mm/j1058_10.mm'
+optimal = 15
+optal_solve_time = 0.007032962
+
+[[instances]]
+file = 'j10.mm/j1058_1.mm'
+optimal = 19
+optal_solve_time = 0.00765263
+test = true
+
+[[instances]]
+file = 'j10.mm/j1058_2.mm'
+optimal = 14
+optal_solve_time = 0.006602538
+
+[[instances]]
+file = 'j10.mm/j1058_3.mm'
+optimal = 19
+optal_solve_time = 0.006695539
+
+[[instances]]
+file = 'j10.mm/j1058_4.mm'
+optimal = 17
+optal_solve_time = 0.007069402
+
+[[instances]]
+file = 'j10.mm/j1058_5.mm'
+optimal = 16
+optal_solve_time = 0.007275394
+
+[[instances]]
+file = 'j10.mm/j1058_6.mm'
+optimal = 14
+optal_solve_time = 0.008893007
+
+[[instances]]
+file = 'j10.mm/j1058_7.mm'
+optimal = 13
+optal_solve_time = 0.007648867
+
+[[instances]]
+file = 'j10.mm/j1058_8.mm'
+optimal = 16
+optal_solve_time = 0.007219585
+
+[[instances]]
+file = 'j10.mm/j1058_9.mm'
+optimal = 11
+optal_solve_time = 0.007179472
+
+[[instances]]
+file = 'j10.mm/j105_8.mm'
+optimal = 31
+optal_solve_time = 0.007189532
+
+[[instances]]
+file = 'j10.mm/j1059_10.mm'
+optimal = 17
+optal_solve_time = 0.008698632
+
+[[instances]]
+file = 'j10.mm/j1059_1.mm'
+optimal = 13
+optal_solve_time = 0.007151996
+test = true
+
+[[instances]]
+file = 'j10.mm/j1059_2.mm'
+optimal = 15
+optal_solve_time = 0.006652879
+
+[[instances]]
+file = 'j10.mm/j1059_3.mm'
+optimal = 16
+optal_solve_time = 0.006421612
+
+[[instances]]
+file = 'j10.mm/j1059_4.mm'
+optimal = 14
+optal_solve_time = 0.006614363
+
+[[instances]]
+file = 'j10.mm/j1059_5.mm'
+optimal = 13
+optal_solve_time = 0.006619333
+
+[[instances]]
+file = 'j10.mm/j1059_6.mm'
+optimal = 12
+optal_solve_time = 0.007434766
+
+[[instances]]
+file = 'j10.mm/j1059_7.mm'
+optimal = 11
+optal_solve_time = 0.006161702
+
+[[instances]]
+file = 'j10.mm/j1059_8.mm'
+optimal = 12
+optal_solve_time = 0.006315082
+
+[[instances]]
+file = 'j10.mm/j1059_9.mm'
+optimal = 15
+optal_solve_time = 0.006698145
+
+[[instances]]
+file = 'j10.mm/j1060_10.mm'
+optimal = 15
+optal_solve_time = 0.006677282
+
+[[instances]]
+file = 'j10.mm/j1060_1.mm'
+optimal = 13
+optal_solve_time = 0.007372021
+test = true
+
+[[instances]]
+file = 'j10.mm/j1060_2.mm'
+optimal = 19
+optal_solve_time = 0.00610028
+
+[[instances]]
+file = 'j10.mm/j1060_3.mm'
+optimal = 9
+optal_solve_time = 0.00631936
+
+[[instances]]
+file = 'j10.mm/j1060_4.mm'
+optimal = 13
+optal_solve_time = 0.006447786
+
+[[instances]]
+file = 'j10.mm/j1060_5.mm'
+optimal = 18
+optal_solve_time = 0.006296687
+
+[[instances]]
+file = 'j10.mm/j1060_6.mm'
+optimal = 10
+optal_solve_time = 0.006620491
+
+[[instances]]
+file = 'j10.mm/j1060_7.mm'
+optimal = 15
+optal_solve_time = 0.00737605
+
+[[instances]]
+file = 'j10.mm/j1060_8.mm'
+optimal = 13
+optal_solve_time = 0.00629473
+
+[[instances]]
+file = 'j10.mm/j1060_9.mm'
+optimal = 15
+optal_solve_time = 0.006631806
+
+[[instances]]
+file = 'j10.mm/j1061_10.mm'
+optimal = 41
+optal_solve_time = 0.00749766
+
+[[instances]]
+file = 'j10.mm/j1061_1.mm'
+optimal = 24
+optal_solve_time = 0.007503503
+test = true
+
+[[instances]]
+file = 'j10.mm/j1061_2.mm'
+optimal = 24
+optal_solve_time = 0.007618563
+
+[[instances]]
+file = 'j10.mm/j1061_3.mm'
+optimal = 32
+optal_solve_time = 0.006628999
+
+[[instances]]
+file = 'j10.mm/j1061_4.mm'
+optimal = 27
+optal_solve_time = 0.00701259
+
+[[instances]]
+file = 'j10.mm/j1061_5.mm'
+optimal = 23
+optal_solve_time = 0.007156202
+
+[[instances]]
+file = 'j10.mm/j1061_6.mm'
+optimal = 30
+optal_solve_time = 0.008038131
+
+[[instances]]
+file = 'j10.mm/j1061_7.mm'
+optimal = 23
+optal_solve_time = 0.007344271
+
+[[instances]]
+file = 'j10.mm/j1061_8.mm'
+optimal = 33
+optal_solve_time = 0.006586146
+
+[[instances]]
+file = 'j10.mm/j1061_9.mm'
+optimal = 26
+optal_solve_time = 0.008487056
+
+[[instances]]
+file = 'j10.mm/j106_1.mm'
+optimal = 18
+optal_solve_time = 0.006816305
+test = true
+
+[[instances]]
+file = 'j10.mm/j1062_10.mm'
+optimal = 20
+optal_solve_time = 0.006585674
+
+[[instances]]
+file = 'j10.mm/j1062_1.mm'
+optimal = 15
+optal_solve_time = 0.007852141
+test = true
+
+[[instances]]
+file = 'j10.mm/j1062_2.mm'
+optimal = 23
+optal_solve_time = 0.006841562
+
+[[instances]]
+file = 'j10.mm/j1062_3.mm'
+optimal = 16
+optal_solve_time = 0.007465193
+
+[[instances]]
+file = 'j10.mm/j1062_4.mm'
+optimal = 15
+optal_solve_time = 0.00816211
+
+[[instances]]
+file = 'j10.mm/j1062_5.mm'
+optimal = 18
+optal_solve_time = 0.007735968
+
+[[instances]]
+file = 'j10.mm/j1062_6.mm'
+optimal = 20
+optal_solve_time = 0.006872793
+
+[[instances]]
+file = 'j10.mm/j1062_7.mm'
+optimal = 14
+optal_solve_time = 0.007515466
+
+[[instances]]
+file = 'j10.mm/j1062_8.mm'
+optimal = 19
+optal_solve_time = 0.007097184
+
+[[instances]]
+file = 'j10.mm/j1062_9.mm'
+optimal = 18
+optal_solve_time = 0.006886063
+
+[[instances]]
+file = 'j10.mm/j1063_10.mm'
+optimal = 10
+optal_solve_time = 0.00671104
+
+[[instances]]
+file = 'j10.mm/j1063_1.mm'
+optimal = 17
+optal_solve_time = 0.006777871
+test = true
+
+[[instances]]
+file = 'j10.mm/j1063_2.mm'
+optimal = 17
+optal_solve_time = 0.006971264
+
+[[instances]]
+file = 'j10.mm/j1063_3.mm'
+optimal = 17
+optal_solve_time = 0.006861249
+
+[[instances]]
+file = 'j10.mm/j1063_4.mm'
+optimal = 12
+optal_solve_time = 0.007666178
+
+[[instances]]
+file = 'j10.mm/j1063_5.mm'
+optimal = 12
+optal_solve_time = 0.007371847
+
+[[instances]]
+file = 'j10.mm/j1063_6.mm'
+optimal = 15
+optal_solve_time = 0.007078282
+
+[[instances]]
+file = 'j10.mm/j1063_7.mm'
+optimal = 15
+optal_solve_time = 0.006919091
+
+[[instances]]
+file = 'j10.mm/j1063_8.mm'
+optimal = 10
+optal_solve_time = 0.00674591
+
+[[instances]]
+file = 'j10.mm/j1063_9.mm'
+optimal = 14
+optal_solve_time = 0.007639434
+
+[[instances]]
+file = 'j10.mm/j106_3.mm'
+optimal = 29
+optal_solve_time = 0.006765562
+
+[[instances]]
+file = 'j10.mm/j1064_10.mm'
+optimal = 15
+optal_solve_time = 0.006194303
+
+[[instances]]
+file = 'j10.mm/j1064_1.mm'
+optimal = 16
+optal_solve_time = 0.006483281
+test = true
+
+[[instances]]
+file = 'j10.mm/j1064_2.mm'
+optimal = 15
+optal_solve_time = 0.006357994
+
+[[instances]]
+file = 'j10.mm/j1064_3.mm'
+optimal = 14
+optal_solve_time = 0.006174369
+
+[[instances]]
+file = 'j10.mm/j1064_4.mm'
+optimal = 13
+optal_solve_time = 0.006082587
+
+[[instances]]
+file = 'j10.mm/j1064_5.mm'
+optimal = 16
+optal_solve_time = 0.005912437
+
+[[instances]]
+file = 'j10.mm/j1064_6.mm'
+optimal = 11
+optal_solve_time = 0.006576029
+
+[[instances]]
+file = 'j10.mm/j1064_7.mm'
+optimal = 12
+optal_solve_time = 0.006363045
+
+[[instances]]
+file = 'j10.mm/j1064_8.mm'
+optimal = 14
+optal_solve_time = 0.006522523
+
+[[instances]]
+file = 'j10.mm/j1064_9.mm'
+optimal = 17
+optal_solve_time = 0.00637299
+
+[[instances]]
+file = 'j10.mm/j106_4.mm'
+optimal = 23
+optal_solve_time = 0.007152669
+
+[[instances]]
+file = 'j10.mm/j106_5.mm'
+optimal = 37
+optal_solve_time = 0.007581913
+
+[[instances]]
+file = 'j10.mm/j106_7.mm'
+optimal = 23
+optal_solve_time = 0.007118193
+
+[[instances]]
+file = 'j10.mm/j106_8.mm'
+optimal = 23
+optal_solve_time = 0.006305014
+
+[[instances]]
+file = 'j10.mm/j107_1.mm'
+optimal = 14
+optal_solve_time = 0.006768503
+test = true
+
+[[instances]]
+file = 'j10.mm/j107_2.mm'
+optimal = 24
+optal_solve_time = 0.007020042
+
+[[instances]]
+file = 'j10.mm/j107_3.mm'
+optimal = 23
+optal_solve_time = 0.007121074
+
+[[instances]]
+file = 'j10.mm/j107_4.mm'
+optimal = 19
+optal_solve_time = 0.0065474
+
+[[instances]]
+file = 'j10.mm/j107_5.mm'
+optimal = 24
+optal_solve_time = 0.006954073
+
+[[instances]]
+file = 'j10.mm/j107_6.mm'
+optimal = 36
+optal_solve_time = 0.00833648
+
+[[instances]]
+file = 'j10.mm/j107_8.mm'
+optimal = 31
+optal_solve_time = 0.006050923
+
+[[instances]]
+file = 'j10.mm/j107_9.mm'
+optimal = 28
+optal_solve_time = 0.007118377
+
+[[instances]]
+file = 'j10.mm/j108_10.mm'
+optimal = 23
+optal_solve_time = 0.007016471
+
+[[instances]]
+file = 'j10.mm/j108_3.mm'
+optimal = 17
+optal_solve_time = 0.006032225
+
+[[instances]]
+file = 'j10.mm/j108_5.mm'
+optimal = 25
+optal_solve_time = 0.006172328
+
+[[instances]]
+file = 'j10.mm/j108_6.mm'
+optimal = 23
+optal_solve_time = 0.006233399
+
+[[instances]]
+file = 'j10.mm/j108_7.mm'
+optimal = 20
+optal_solve_time = 0.005969492
+
+[[instances]]
+file = 'j10.mm/j108_8.mm'
+optimal = 14
+optal_solve_time = 0.006378256

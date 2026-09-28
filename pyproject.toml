@@ -8,4 +8,5 @@ dependencies = [
     "ortools~=9.15",
     "pyvrp>=0.14.0",
     "tsplib95>=0.7.1",
+      "optalcp-bin-preview @ git+https://github.com/ScheduleOpt/optalcp-py-bin-preview@latest",
 ]

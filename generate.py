@@ -2,7 +2,12 @@ import tomllib
 
 PROFILE = "ci"
 
-COLLECTIONS = ["knapsack/instances.toml", "lp/instances.toml", "tsp/instances.toml"]
+COLLECTIONS = [
+    "knapsack/instances.toml",
+    "lp/instances.toml",
+    "tsp/instances.toml",
+    "rcpsp/multi-mode/instances.toml",
+]
 
 
 for collection in COLLECTIONS:
